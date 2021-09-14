@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Theme Made By www.groovedevelopers.com -->
+    <title>Joko</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/search.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <header class="joko_header">
+      <div class="logo">
+        <a href="index.html"> <img src="./assets/images/logo.png" /></a>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="single.html">EPISODES</a></li>
+          <li>
+            <a href=""
+              >NFT COLLECTIBLES </a>
+          </li>
+        </ul>
+      </div>
+      <div class="search">
+        <form>
+          <div class="form-group search-form">
+            <div class="searchicon">
+              <img src="./assets/Icons/Search.svg" />
+            </div>
+            <input type="text" placeholder="SEARCH HERE" />
+          </div>
+        </form>
+      </div>
+
+      <div class="instant">
+        <div class="instant_link">
+          <!-- <div id="instantAccess" class="instant_access">INSTANT ACCESS</div> -->
+          <div  class="instant_access">INSTANT ACCESS <img src="./assets/Icons/Lock.svg"
+            /></div>
+        </div>
+      </div>
+      <div class="profile_menu">
+        <div class="profile_link">
+          <a href="profile.html">
+            Profile &nbsp;
+            <img src="./assets/images/Episode card/Rectangle 458wizkid.png" />
+          </a>
+        </div>
+      </div>
+
+      <div class="m_menu">
+        <nav role="navigation">
+          <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="single.html">EPISODES</a></li>
+              <li>
+                <a href=""
+                  >NFT COLLECTIBLES </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="m_logo">
+        <a href="index.html"> <img src="./assets/images/logo.png" /></a>
+      </div>
+
+      <div class="m_profile">
+        <a href="profile.html">
+          <img src="./assets/images/Episode card/Rectangle 458wizkid.png" />
+          &nbsp; Profile
+        </a>
+      </div>
+    </header>
+
+    <section class="section1_single">
+      <div class="single_nav">
+        <div class="single_nav1"> <i class="fa fa-arrow-left"></i> BACK</div>
+        <div class="single_nav2">Episode 1</div>
+        <div class="single_nav3">NEXT EPISODES <i class="fa fa-arrow-right"></i></div>
+      </div>
+
+      <div class="episode_vid">
+        <video id="video_player" controls>
+          <source src="./assets/videos/wiz.mp4" type="video/mp4" />
+        </video>
+      </div>
+
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-md-7 featured_artist_body">
+            <div class="artist_body_header">CALIPH</div>
+            <div class="artist_body_body">
+              Grammy-winning recording artist Caliph. Born in Senegal, Caliph
+              released his newest album Immigrant of the Year on May 21. He went
+              from losing his job because of DACA application delays to
+              recording a Grammy-winning album. His newest album embodies his
+              journey and his message: mental health is crucial, especially for
+              immigrants. “This is about the trauma we go through as immigrants
+              and having to act like everything’s okay,” he said. What matters
+              to him is “if this album can make [a] younger version of me or
+              anyone going through mental health issues know that they can push
+              through whatever they’re going through.”
+            </div>
+
+            <br />
+            <br />
+            <div class="artist_body_btn inline_btn1">
+              <a href=""> <button class="btn btn-outline-dark">
+                SPOTIFY <i class="fa fa-spotify"></i>
+              </button> </a>
+            </div>
+            <div class="artist_body_btn inline_btn2">
+              <a href=""> <button class="btn btn-outline-dark">
+                APPLE MUSIC <i class="fa fa-applemusic"></i>
+              </button> </a>
+            </div>
+            <br />
+            <br />
+            <br />
+            <br />
+          </div>
+
+          <div class="col-sm-12 col-md-5">
+            <div class="pass_card">
+              <div class="pass_card_head">
+                Buy a 3-day pass to watch the full episode
+              </div>
+
+              <div class="pass_market_lock">
+
+                <!-- <i class="fa fa-lock" aria-hidden="true"></i> -->
+                <img src="./assets/Icons/Lock.svg" />
+
+                <p>You need an account to watch the full episode</p>
+
+              <a href="register.html">  <button  class="btn-dark">BUY NOW</button></a>
+
+              </div>
+                
+
+                
+              </div>
+            </div>
+
+            <!-- //-----------/// THIS IS AFTER THE USER IS LOGGED IN //-----------// -->
+
+            <!-- <div class="pass_card">
+              <div class="pass_card_head">
+                Buy a 3-day pass to watch the full episode
+              </div>
+
+              <div>
+                <ul class="nav nav-tabs">
+                  <li class="active market_tab">
+                    <a data-toggle="pill" href="#market">Market Price</a>
+                  </li>
+                  <li class="own_tab">
+                    <a data-toggle="pill" href="#own">Your Price</a>
+                  </li>
+                </ul>
+
+                <div class="tab-content">
+                  <div
+                    id="market"
+                    data-toggle=""
+                    class="tab-pane fade in active market"
+                  >
+                    <h5><b>@Adeyemo</b> is selling at</h5>
+                    <h2>$20.01</h2>
+
+                    <button id="myBtn" class="btn-dark">BUY NOW</button>
+
+                    <p>This pass will last for 3-days</p>
+                  </div>
+                  <div id="own" class="tab-pane fade own">
+                    <p class="p1">Enter a price between $10-$11</p>
+
+                    <form>
+                      <input
+                        type="text"
+                        oninput="myFunction(event)"
+                        placeholder="$0.00"
+                      />
+                    </form>
+                    <button class="btn" id="price_button">BID</button>
+
+                    // The Modal
+                    <div id="matchModal" class="modal">
+                      // Modal content
+                      <div class="modal-content">
+                        <span class="close">&times;</span>
+                        <p>Some text in the Modal..</p>
+                      </div>
+                    </div>
+
+                    <p class="p2">This pass will last for 3-days</p>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section5">
+      <div class="inline">
+        &nbsp; &nbsp; &nbsp;
+        <span class="text4">NFT </span>
+        &nbsp;
+        <span class="text3">COLLECTIBLES</span>
+      </div>
+
+      <!-- <div class="container"> -->
+      <div class="row">
+        <div class="col-sm-12 col-md-3 playlist_col">
+          <img src="./assets/images/Episode card/Rectangle 458ammarae.png" />
+          <div class="episodes_title">Episode 1- AMMAARAE</div>
+        </div>
+        <div class="col-sm-12 col-md-3 playlist_col">
+          <img src="./assets/images/Episode card/Rectangle 458prettyboy.png" />
+          <div class="episodes_title">Episode 2- PRETTYBOY D-O</div>
+        </div>
+        <div class="col-sm-12 col-md-3 playlist_col">
+          <img src="./assets/images/Episode card/Rectangle 458wizkid.png" />
+          <div class="episodes_title">Episode 3- BIG WIZ</div>
+        </div>
+        <div class="col-sm-12 col-md-3 playlist_col">
+          <img src="./assets/images/Episode card/Rectangle 458rema.png" />
+          <div class="episodes_title">Episode 4- REMA</div>
+        </div>
+      </div>
+      <!-- </div> -->
+    </section>
+
+    <div class="clearfix"></div>
+
+    <footer class="joko_footer">
+      <ul>
+        <li><a href="">ABOUT</a></li>
+        <li><a href="">CONTACT</a></li>
+        <li><a href="">PRIVACY POLICY</a></li>
+        <li><a href="">TERMS AND CONDITIONS</a></li>
+      </ul>
+
+      <div class="f_twitter">
+        <div class="social_icon">
+          <img src="./assets/Icons/Twitter.svg" />
+        </div>
+      </div>
+      <div class="f_facebook">
+        <div class="social_icon">
+          <img src="./assets/Icons/facebook.svg" />
+        </div>
+      </div>
+      <div class="f_insta">
+        <div class="social_icon">
+          <img src="./assets/Icons/instagram.svg" />
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function myFunction(event) {
+        // alert(event.target.length)
+        var value = document.getElementById("price_button").length;
+        alert(value);
+        if (value.length > 0) {
+          document.getElementById("price_button").style.backgroundColor =
+            "#0000";
+        } else {
+          document.getElementById("price_button").style.backgroundColor = "red";
+        }
+        //  document.getElementById("price_button").style.backgroundColor = '#0000';
+        // x.value = x.value.toUpperCase();
+      }
+    </script>
+
+    <script>
+      // Get the modal
+      var modal = document.getElementById("matchModal");
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("myBtn");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks the button, open the modal
+      btn.onclick = function () {
+        modal.style.display = "block";
+      };
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+    </script>
+  </body>
+</html>

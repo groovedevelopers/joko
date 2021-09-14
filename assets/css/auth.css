@@ -1,0 +1,235 @@
+.auth{
+    background: #E5E5E5;
+    
+}
+
+@media (max-width: 800px) {
+    .register_col_1{
+display: none;
+    }
+
+    .auth_form{
+        height: 100%;
+        margin-top: 20px;
+    
+    }
+}
+
+.register_container{
+    width: 100%;
+}
+.register_header{
+    margin-top: 1px;
+  border: 1px solid black;
+  background: #fff;
+}
+
+.register_header .l_logo{
+    
+    margin: 0 auto !important;
+    width: 15%;
+    padding: 25px;
+}
+
+.l_banner_head{
+    width: 87%;
+    background: #EF4B3C;
+border: 1px solid #000000;
+box-sizing: border-box;
+margin-top: 20px;
+display: flex;
+margin-left: 6.5%;
+}
+
+.l_ban_head_text1{
+    font-family: Space Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 45px;
+line-height: 67px;
+display: inline;
+align-items: center;
+
+color: #000000;
+}
+
+.l_ban_head_text2{
+    margin-top: 20px;
+
+    /* align-items: right !important; */
+margin-left: 120px;
+text-align: right !important;
+}
+
+.l_ban_head_text2 span{
+    font-family: Satoshi;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 19px;
+/* identical to box height */
+display: inline;
+
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #000000;
+}
+
+.l_ban_head_text2 img{
+    
+}
+
+.l_banner_img{
+    height: 65vh;
+}
+
+.l_banner_img img{
+    width: 87%;
+    height: 100%;
+    margin-left: 36px;
+    object-fit: cover;
+}
+
+
+
+@media (min-width: 801px) {
+.auth_form{
+    height: 75vh;
+    margin-top: 20px;
+  border: 1px solid black;
+  background: #fff;
+  padding: 50px;
+
+}
+
+}
+
+.auth_form input{
+    height: 40px;
+    width: 100%;
+    outline: none;
+}
+
+.ter{
+    display: flex;
+}
+
+.auth_form input[type="checkbox"]{
+    height: 20px;
+    width: 5%;
+    
+}
+
+.auth_form .agree{ 
+    width: 95%;
+}
+
+.agree a{
+    color: #000000 !important;
+  }
+
+  .auth_form a{
+    color: #000000 !important;
+  }
+
+.form_head{
+    font-family: Space Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 35px;
+line-height: 52px;
+display: flex;
+align-items: center;
+
+color: #000000;
+}
+
+.form_body{
+    font-family: Satoshi;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 30px;
+/* or 187% */
+
+display: flex;
+align-items: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+}
+
+
+
+/* LOGIN */
+
+@media (max-width: 800px) {
+.login{
+    width: 100% !important;
+}
+}
+
+@media (min-width: 801px) {
+.login{
+    /* justify-content: center; */
+    margin: 0 auto;
+    height: 60vh;
+    width: 50% !important;
+    border: 1px solid black;
+    margin-top: 30px;
+    background-color: #fff;
+    margin-left: 25vw;
+    margin-bottom: 17vh;
+    /* float:center !important; */
+
+ /* display:inline-block; */
+}
+
+}
+
+.login input{
+    height: 40px;
+    width: 100%;
+    outline: none;
+}
+
+.login a{
+    color: #000000 !important;
+  }
+
+  .login .form_head{
+      /* text-align: center; */
+      padding: 20px;
+      justify-content: center;
+  }
+
+  .login form{
+      padding: 20px;
+  }
+
+  .login .b{
+    float: right !important;
+    margin-bottom: 20px;
+  }
+
+  .login input[type="submit"]{
+    
+    background: black;
+    color: #fff;
+    border: none;
+    
+}
+
+.tbl{
+    /* justify-content: center; */
+    font-family: Satoshi;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 42px;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+}

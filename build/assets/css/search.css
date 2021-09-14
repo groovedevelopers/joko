@@ -1,0 +1,54 @@
+.search_res_text1{
+    font-family: Satoshi;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 42px;
+/* identical to box height, or 262% */
+
+text-align: center;
+letter-spacing: -0.02em;
+
+color: #000000;
+}
+
+.search_res_text2{
+    font-family: Space Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 45px;
+line-height: 67px;
+
+text-align: center;
+
+color: #000000;
+
+}
+
+.no_res .custom-btn{
+    padding: 20px;
+    width: 30%;
+    float: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.custom-btn a{
+    color: #000000;
+}
+
+.no_res{
+    padding-top:25vh ;
+    margin: 0 auto;
+    width: 50%;
+}
+
+@media (max-width: 800px) {
+    .no_res .custom-btn{
+        padding: 20px;
+        width: 100%;
+        float: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+}

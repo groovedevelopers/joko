@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Theme Made By www.groovedevelopers.com -->
+    <title>Joko</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/search.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <button id="looking" class="btn btn-outline-dark">Looking for match</button>
+    <button id="confirm" class="btn btn-outline-secondary">
+      Confirm Your sale
+    </button>
+    <button id="found" class="btn btn-outline-primary">Match Found</button>
+
+    <!-- // Looking For Match Modal -->
+    <div id="matchModal" class="modal">
+      <!-- // Modal content -->
+      <div class="modal-content popupModal">
+        <span class="close">&times;</span>
+
+        <div class="matchModal">
+          <h5>LOOKING FOR A MATCH</h5>
+
+          <div class="loading">
+              <img src="./assets/Icons/reload.png"/>
+
+          </div>
+
+          <p class="dark-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis,
+            curabitur auctor in turpis nisl, facilisis orci nulla amet. Luctus
+            quisque morbi ut et metus, mi.
+          </p>
+
+          <p class="not-dark-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+    </div>
+
+
+    <script>
+        // Get the modal
+        var modal = document.getElementById("matchModal");
+  
+        // Get the button that opens the modal
+        var btn = document.getElementById("looking");
+  
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+  
+        // When the user clicks the button, open the modal
+        btn.onclick = function () {
+          modal.style.display = "block";
+        };
+  
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function () {
+          modal.style.display = "none";
+        };
+  
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        };
+      </script>
+
+
+
+
+
+<!-- // Confirm Your Sale Modal -->
+<div id="saleModal" class="modal">
+    <!-- // Modal content -->
+    <div class="modal-content popupModal">
+      <span class="close">&times;</span>
+
+      <div class="saleModal">
+        <h5>CONFIRM YOUR SALE</h5>
+
+        <p class="dark-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis,
+          curabitur auctor in turpis nisl, facilisis orci nulla amet. Luctus
+          quisque morbi ut et metus, mi.
+        </p>
+
+        <div class="button">
+          <button class="btn btn-dark">CONTINUE</button>
+        </div>
+        <div class="button">
+          <button class="btn btn-outline-dark">CANCEL</button>
+        </div>
+
+        <p class="not-dark-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script>
+      // Get the modal
+      var modal = document.getElementById("saleModal");
+
+      // Get the button that opens the modal
+      var btn = document.getElementById("confirm");
+
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+
+      // When the user clicks the button, open the modal
+      btn.onclick = function () {
+        modal.style.display = "block";
+      };
+
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function () {
+        modal.style.display = "none";
+      };
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function (event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      };
+    </script>
+
+     <!-- // Match Found Modal -->
+  <div id="matchFoundModal" class="modal">
+    <!-- // Modal content -->
+    <div class="modal-content popupModal">
+      <span class="close">&times;</span>
+
+      <div class="saleModal">
+        <h5>MATCH FOUND!</h5>
+
+        <p class="dark-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sagittis,
+          curabitur auctor in turpis nisl, facilisis orci nulla amet. Luctus
+          quisque morbi ut et metus, mi.
+        </p>
+
+        <div class="button">
+          <button class="btn btn-dark">GO TO EPISODES</button>
+        </div>
+
+        <p class="not-dark-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <script>
+    // Get the modal
+    var modal = document.getElementById("matchFoundModal");
+
+    // Get the button that opens the modal
+    var btn = document.getElementById("found");
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+
+    // When the user clicks the button, open the modal
+    btn.onclick = function () {
+      modal.style.display = "block";
+    };
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+      modal.style.display = "none";
+    };
+
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    };
+  </script>
+
+    
+
+
+  </body>
+</html>
